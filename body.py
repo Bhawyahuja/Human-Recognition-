@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-body_cascade=cv2.CascadeClassifier("myhaar.xml")
+body_cascade=cv2.CascadeClassifier("humanbody.xml")
 cap = cv2.VideoCapture(0)
 while (True):
     #capture frame by frame
