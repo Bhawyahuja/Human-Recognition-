@@ -6,8 +6,6 @@ while (True):
     #capture frame by frame
     ret, frame=cap.read()
     frame = cv2.resize(frame, None,fx=0.5, fy=0.5, interpolation = cv2.INTER_LINEAR)
-    #print(ret)
-    #print(frame)
     #operations from frame
     gray=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
    
